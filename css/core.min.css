@@ -11907,7 +11907,7 @@ body.boxed .team-3 {
 
 .logos-4 .grid-item:before {
     height: 100%;
-    border-left: 1px solid #ddd;
+    border-left: 1px solid #aaa;
     top: 0;
     left: -1px
 }

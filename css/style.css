@@ -12,6 +12,11 @@
     font-size: 24px;
 }
 
+h2 {
+    color:#fff;
+    font-weight: 300;
+}
+
 .color-y {
     color: #EAB940;
 }
@@ -46,9 +51,6 @@
     background-color: #405740;
     color:#ddd;
 }
-#about h2 {
-    color:#ddd;
-}
 
 #about #topic-1.section-block {
     background-color: #B06349;
@@ -73,7 +75,69 @@
     background-image: url(../images/topic3.svg);
 }
 
+
+/* #video */
+#video .section-block {
+    /* background-color: #405740; */
+}
+    
+/* #events */
+#events .section-block {
+    background-color: #405740; 
+}
+#events .accordion.style-2 > ul > li.li-border {
+	padding: 1.3rem 0;
+	border: none;
+	font-weight: 400;
+	background-color: transparent;
+	border-bottom: 1px solid #7D8F88;
+}
+#events .accordion.style-2 > ul > li > a {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #7D8F88;
+}
+#events ul.events-ul li,
+#events .accordion.style-2 > ul > li > a {
+    font-size:18px;
+    letter-spacing:0.2rem;
+    color: #fff;
+}
+#events ul.events-ul li span,
+#events .accordion.style-2 > ul > li > a span {
+    margin-right: 18px;
+    font-size:22px;
+    color: #ddd;
+}
+#events .feature-column.left.medium .feature-text {
+    padding: 0 2rem;
+    color: #fff;
+    font-size: 16px;
+    line-height: 1.5;
+}
+#events .feature-column.left.medium .feature-text h5 {
+    color: #EAB940;
+}
+#events .feature-column img {
+    border-radius: 100px;
+    padding: 20px;
+}
+#events .accordion-content .speaker-block {
+    display: flex;
+    align-items: center;
+}
+#events .accordion.style-2 > ul > li > a span.icon-plus,
+#events .accordion.style-2 > ul > li > a span.icon-minus {
+    color: #EAB940;
+}
+
+
+
+
 /* #reports */
+#reports .section-block {
+    background-color: #405740;
+}
 #reports .collapse .column:nth-child(1) {
     background-color: #B06349;
 }  
@@ -93,10 +157,21 @@
 }
 
 
-
 /* footer */
 .footer .footer-logo {
-    width:100px;
+    width:auto;
     display: inline-block;
     margin: 14px 20px;
+}
+.footer .footer-logo img.img-1 {
+    width: 100%;
+    height: 48px;
+}
+.footer .footer-logo img.img-2 {
+    width: 100%;
+    height: 34px;
+}
+.footer .footer-logo img.img-3 {
+    width: 100%;
+    height: 30px;
 }
