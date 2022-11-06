@@ -882,7 +882,7 @@ body.boxed .wrapper-inner {
 }
 
 .navigation-show a {
-    color: #666
+    color: #333
 }
 
 .navigation-show a:hover {
@@ -895,11 +895,11 @@ body.boxed .wrapper-inner {
 }
 
 .navigation-hide a {
-    color: #666
+    color: #555
 }
 
 .navigation-hide a:hover {
-    color: #fff
+    color: #000
 }
 
 .mobile .logo.logo-center {
@@ -6271,7 +6271,7 @@ pre code {
 }
 
 [class*=icon-].medium {
-    font-size: 2.4rem
+    font-size: 3.6rem
 }
 
 [class*=icon-].large {
@@ -7698,7 +7698,7 @@ textarea {
 
     .row,
     body.boxed .wrapper-inner {
-        max-width: 35rem
+        max-width: 37rem
     }
 
     [class*=content-grid-] .grid-item {
@@ -11983,7 +11983,8 @@ body.boxed .team-3 {
 
 @media only screen and (max-width:480px) {
     [class*=logos-] .grid-item {
-        width: 50%
+        /* width: 50%; */
+        width: 100%;
     }
 
     .logos-2 a,

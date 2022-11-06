@@ -32,6 +32,15 @@ h2 {
 
 /* ----------------------- */
 
+/* header */
+@media only screen and (max-width: 960px){
+    .header .logo {
+        width: 10rem;
+    }
+}
+
+/* ----------------------- */
+
 /* #home */
 #home h1 .h1-s {
     font-size: 4rem;
@@ -141,7 +150,38 @@ h2 {
     display: block; 
     padding-top: 50%;
 }
+@media only screen and (max-width: 960px){
+    #events .accordion.style-2 > ul > li > a {
+        display: block;
+    }
+    #events ul.events-ul li span,
+    #events .accordion.style-2 > ul > li > a span {
+    font-size: 17px;
+    }
 
+    #events .accordion-content .speaker-block {
+        display: block;
+        padding: 0;
+    }
+    #events .accordion-content .speaker-block+.speaker-block {
+        margin-top: 30px;
+    }
+    #events .accordion-content .speaker-block .width-4 {
+        width: 35%;
+    }
+    #events .accordion-content .speaker-block .width-8 {
+        width: 65%;
+        padding-right: 0;
+    }
+    #events .feature-column.left.medium .feature-text,
+    #events .feature-column img {
+        padding: 0;
+    }
+    #events .feature-text p {
+        font-size: 15px;
+        line-height: 1.45;
+    }
+}
 
 
 /* #reports */

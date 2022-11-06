@@ -48,7 +48,7 @@ body{
 	font-size: 1.7rem;
 	line-height: 1.75;
 	color: #ddd;
-	background-color: #405740;
+	/* background-color: #405740; */
 	/* background-color: #1f2225; */
 }
 body, 
@@ -281,24 +281,25 @@ blockquote{
 	}
 	h2,
 	.title-large{
-		font-size: 2.8rem;
+		font-size: 3.2rem;
 	}
 	h3,
 	.title-medium{
-		font-size: 1.8rem;
+		font-size: 2.4rem;
 	}
 	h4{
-		font-size: 1.5rem;
+		font-size: 1.9rem;
 	}
 	h5{
-		font-size: 1.3rem;
+		/* font-size: 1.3rem; */
+		font-size: 1.5rem;
 	}
 	h6{
-		font-size: 1.1rem;
+		font-size: 1.2rem;
 	}
 	h5.tms-caption, 
 	.tmp-content h5{
-		font-size: 1.4rem;
+		font-size: 1.5rem;
 	}
 
 	/* Lead */
@@ -682,11 +683,11 @@ body,
 
 /* Mobile Header Styles & Breakpoints */
 .mobile .header .header-inner{
-	background-color: #fff;
+	background-color: #405740;
 	border-top: none;
 }
 .mobile .header .header-inner{
-	border-bottom: 1px solid #eee;
+	border-bottom: 1px solid #aaa;
 }
 .mobile .header + .content{
 	padding-top: 0;
@@ -695,10 +696,10 @@ body,
 	.header .header,
 	.header .header-inner,
 	.header.header-transparent .header-inner{
-		background-color: #fff;
+		background-color: #405740;
 	}
 	.header .header-inner{
-		border-bottom: 1px solid #eee;
+		border-bottom: 1px solid #aaa;
 	}
 	.header .header-inner > .nav-bar{
 		padding: 0;
@@ -1181,11 +1182,11 @@ body,
 		color: #fff;
 	}
 	.header .navigation .nav-icon{
-		color: #666;
+		color: #ccc;
 	}
 	.header .navigation .nav-icon:hover,
 	.header .dropdown .nav-icon.active{
-		color: #33363a;
+		color: #fff;
 	}
 }
 
@@ -1255,7 +1256,7 @@ body,
 	width: 12rem;
 }
 .side-navigation-wrapper{
-	background-color: #f6f6f6;
+	background-color: #EAB940;
 	box-shadow: none !important;
 }
 .side-navigation-wrapper.slide-in-reset{
@@ -1287,12 +1288,12 @@ body,
 .side-navigation > ul > li > a{
 	padding: 0 1rem;
 	display: inline;
-	font-size: 4rem;
-	line-height: 1.2;
+	font-size: 2.4rem;
+	line-height: 2.5;
 	letter-spacing: 0;
 	text-transform: uppercase;
-	font-weight: 700;
-	color: #999;
+	font-weight: 400;
+	color: #333;
 	position: relative;
 }
 .side-navigation ul li.current > a{
@@ -3934,7 +3935,8 @@ blockquote cite{
 	color: #3fb58b;
 }
 .accordion.style-2 .accordion-content{
-	padding: 1rem 0 3rem 0;
+	/* padding: 1rem 0 3rem 0; */
+	padding: 2rem 0 2.5rem 0;
 	border: none;
 }
 .accordion.style-2 > ul > li > div{
