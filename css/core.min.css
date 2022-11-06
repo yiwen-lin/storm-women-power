@@ -11909,7 +11909,8 @@ body.boxed .team-3 {
     height: 100%;
     border-left: 1px solid #aaa;
     top: 0;
-    left: -1px
+    left: -1px;
+    border-left-style:dashed;
 }
 
 .logos-4 .grid-item:after {

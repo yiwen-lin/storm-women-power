@@ -78,7 +78,7 @@ h2 {
 
 /* #video */
 #video .section-block {
-    /* background-color: #405740; */
+    background-color: #405740;
 }
     
 /* #events */
@@ -131,6 +131,16 @@ h2 {
     color: #EAB940;
 }
 
+.women-bn {
+    background: url(../images/women-banner.jpg) center no-repeat;
+    background-size: 100% auto;
+    width:100%;
+}
+.women-bn:before{
+    content: ""; 
+    display: block; 
+    padding-top: 50%;
+}
 
 
 

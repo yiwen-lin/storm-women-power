@@ -217,7 +217,7 @@ a.animated-link{
 /* Lead */
 .lead,
 blockquote{
-	font-size: 1.7rem;
+	font-size: 1.9rem;
 	font-weight: 400;
 	line-height: 1.7;
 }
@@ -657,7 +657,7 @@ body,
 
 /* Background Header - On Scroll! */
 .header-background .header-inner{
-	background-color: #fff;
+	background-color: #405740;
 }
 .header-background.with-shadow .header-inner{
 	box-shadow: 0 0 3rem 0 rgba(0,0,0,0.1);
@@ -854,28 +854,28 @@ body,
 
 /* Nav Dark Initial, Hover & Current Colors */
 .header-transparent.nav-dark .navigation > ul > li > a{
-	color: #999;
+	color: #fff;
 	opacity: 1;
 }
 .nav-dark .navigation > ul > li.current > a,
 .nav-dark .navigation > ul > li.current > a:hover{
-	color: #33363a;
+	color: #405740;
 	opacity: 1;
 }
 
 /* Header Background Initial, Hover & Current Nav Colors - On Scroll! */
 .header-background .navigation > ul > li > a{
-	color: #999;
+	color: #fff;
 }
 .header-background .navigation > ul > li.current > a{
-	color: #33363a;
+	color: #EAB940;
 	border-bottom: none;
 }
 .header-background .navigation > ul > li.current > a:hover{
-	color: #33363a;
+	color: #EAB940;
 }
 .header-background .navigation > ul > li > a:hover{
-	color: #33363a;
+	color: #EAB940;
 	opacity: 1;
 }
 
