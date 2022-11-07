@@ -30,6 +30,24 @@ h2 {
     color: #7D8F88;
 }
 
+.pc-display {
+    display:block;
+}
+.mb-display {
+    display:none;
+    opacity:0;
+}
+
+@media only screen and (max-width: 960px){
+    .pc-display {
+        display:none;
+        opacity:0;
+    }
+    .mb-display {
+        display:block;
+    }
+}
+
 /* ----------------------- */
 
 /* header */
@@ -38,6 +56,7 @@ h2 {
         width: 10rem;
     }
 }
+
 
 /* ----------------------- */
 
@@ -49,11 +68,46 @@ h2 {
 #home h1 .h1-s span  {
     font-family: 'source-han-sans-cjk-tc', sans-serif;
 }
-
 #home p.p-l {
     color: #ddd;
     font-weight: 500;
 }
+
+#home .tms-slide.tms-forcefit img.mb-display {
+    opacity:0!important;
+}
+
+@media only screen and (max-width: 768px){
+    #home h1 .h1-s {
+        font-size: 3.4rem;
+        margin-top: 20px;
+        font-weight:500;
+    }
+    #home .title-large {
+        font-size: 6rem;
+    }
+    #home h1 .h1-s span {
+        /* display:block; */
+    }
+    #home p.p-l {
+        color: #eee;
+        font-weight: 400;
+        font-size: 2.1rem;
+    }
+    #home,
+    #home .tm-slider-container
+    #home .tms-slide,
+    #home .tms-slides {
+        height:calc( 100vh - 80px ) !important;
+    }
+    #home .tms-slide.tms-forcefit img.mb-display {
+        height:calc( 100vh - 80px ) !important;
+        top: 0px!important;
+        opacity:1!important;
+    }
+
+}
+
 
 /* #about */
 #about .section-block{
@@ -84,10 +138,35 @@ h2 {
     background-image: url(../images/topic3.svg);
 }
 
+@media only screen and (max-width: 768px){
+    #topic-1 .media-column,
+    #topic-2 .media-column,
+    #topic-3 .media-column {
+        height:300px;
+    }
+    #topic-3 .media-column {
+        background-image: url(../images/topic3-mb.svg);
+    }
+    .hero-5 .column:first-child:not(.media-column) .split-hero-content {
+        margin-top:0;
+    }
+}
 
 /* #video */
 #video .section-block {
     background-color: #405740;
+}
+
+@media only screen and (max-width: 768px){
+    #video .section-block {
+        padding-top:9rem;
+    }
+    #video .row {
+        margin: 0 auto;
+    }
+    #video .column {
+        padding:0;
+    }
 }
     
 /* #events */
@@ -180,6 +259,17 @@ h2 {
     #events .feature-text p {
         font-size: 15px;
         line-height: 1.45;
+    }
+
+    .women-bn {
+        background: url(../images/women-banner-mb.jpg) center no-repeat;
+        background-size: 100% auto;
+        width:100%;
+    }
+    .women-bn:before{
+        content: ""; 
+        display: block; 
+        padding-top: 134%;
     }
 }
 

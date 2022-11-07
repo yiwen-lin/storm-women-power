@@ -281,7 +281,7 @@ blockquote{
 	}
 	h2,
 	.title-large{
-		font-size: 3.2rem;
+		font-size: 3rem;
 	}
 	h3,
 	.title-medium{
@@ -356,7 +356,7 @@ body,
 	box-shadow: 0 2rem 4.6rem rgba(0,0,0,0);
 }
 .section-block.featured-media{
-	background-color: #181818;
+	background-color: #415740;
 }
 
 /* greyscale */
@@ -1288,17 +1288,17 @@ body,
 .side-navigation > ul > li > a{
 	padding: 0 1rem;
 	display: inline;
-	font-size: 2.4rem;
+	font-size: 2rem;
 	line-height: 2.5;
-	letter-spacing: 0;
+	letter-spacing: 2px;
 	text-transform: uppercase;
-	font-weight: 400;
-	color: #333;
+	font-weight: 500;
+	color: #eee;
 	position: relative;
 }
 .side-navigation ul li.current > a{
-	color: #33363a;
-	font-weight: 700;
+	color: #405740;
+	font-weight: 500;
 }
 .side-navigation-wrapper .navigation-hide{
 	margin-right: 2rem;
@@ -1307,7 +1307,7 @@ body,
 	color: #666;
 }
 .side-navigation-wrapper .navigation-hide a:hover{
-	color: #33363a;
+	color: #405740;
 }
 .one-page-nav .side-navigation > ul > li > a{
 	padding: 0 4rem;
@@ -1372,18 +1372,18 @@ body,
 .side-navigation .cart-overview .checkout.button{
 	background-color: #3fb58b;
 	border-color: transparent;
-	color: #33363a;
+	color: #405740;
 }
 .side-navigation .cart-overview .checkout.button:hover{
 	background-color: #666;
 	border-color: transparent;
-	color: #33363a;
+	color: #405740;
 }
 
 /* Side Nav Hover Colors */
 .side-navigation ul li a:hover,
 .side-navigation ul li.current a:hover{
-	color: #33363a;
+	color: #405740;
 }
 
 /* Side Nav Widget */

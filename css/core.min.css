@@ -895,11 +895,11 @@ body.boxed .wrapper-inner {
 }
 
 .navigation-hide a {
-    color: #555
+    color: #fff;
 }
 
 .navigation-hide a:hover {
-    color: #000
+    color: #ccc;
 }
 
 .mobile .logo.logo-center {
@@ -4369,12 +4369,12 @@ p a:hover {
 }
 
 ::selection {
-    background: #333;
+    /* background: #333; */
     color: #fff
 }
 
 ::-moz-selection {
-    background: #333;
+    /* background: #333; */
     color: #fff
 }
 
@@ -8033,7 +8033,7 @@ textarea {
     vertical-align: middle;
     display: table-cell;
     float: none;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
 }
 
 .tms-content-scalable {
