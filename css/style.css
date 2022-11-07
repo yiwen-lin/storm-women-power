@@ -325,6 +325,18 @@ h2 {
 
 
 /* footer */
+.footer .widget {
+    display:flex;
+    margin-bottom: 0;
+}
+.footer .widget .logo-wrap {
+    display:inline-block;
+}
+.footer .widget .logo-wrap h5 {
+    display:inline-block;
+    color: #bbb;
+    letter-spacing: 2px;
+}
 .footer .footer-logo {
     width:auto;
     display: inline-block;
@@ -332,7 +344,7 @@ h2 {
 }
 .footer .footer-logo img.img-1 {
     width: 100%;
-    height: 48px;
+    height: 56px;
 }
 .footer .footer-logo img.img-2 {
     width: 100%;
@@ -341,4 +353,21 @@ h2 {
 .footer .footer-logo img.img-3 {
     width: 100%;
     height: 30px;
+}
+@media only screen and (max-width: 768px){ 
+    .footer .widget {
+        text-align: center;
+    }
+    .footer .widget .logo-wrap {
+        margin-bottom: 30px;
+    }
+    .footer .widget .logo-wrap h5 {
+        display:block;
+    }
+    .footer .footer-logo {
+        margin: 0 10px;
+    }
+    .footer .copyright {
+        text-align: center;
+    }
 }
