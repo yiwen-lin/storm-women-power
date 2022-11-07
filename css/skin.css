@@ -45,7 +45,7 @@ Copyright: ThemeMountain
 body{
 	letter-spacing: 0;
 	font-weight: 400;
-	font-size: 1.7rem;
+	font-size: 1.8rem;
 	line-height: 1.75;
 	color: #ddd;
 	background-color: #405740;
@@ -292,7 +292,7 @@ blockquote{
 	}
 	h5{
 		/* font-size: 1.3rem; */
-		font-size: 1.5rem;
+		font-size: 1.6rem;
 	}
 	h6{
 		font-size: 1.2rem;

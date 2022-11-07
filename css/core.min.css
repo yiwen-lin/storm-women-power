@@ -2590,7 +2590,8 @@ ul ul {
 
 ol [class*=icon-],
 ul [class*=icon-] {
-    margin-right: 1rem
+    margin-right: 1rem;
+    margin-left: 1rem;
 }
 
 .list-group-dotted,
@@ -8651,7 +8652,8 @@ textarea {
 
 .content,
 body {
-    background-color: #fff
+    /* background-color: #fff */
+    background-color:#405740;
 }
 
 body.boxed {
@@ -10531,7 +10533,7 @@ only screen and (min-resolution:2dppx) {
 
     .hero-5 .media-column .split-hero-content,
     [class*=hero-]>.row>.column {
-        max-width: 35rem
+        /* max-width: 35rem */
     }
 }
 
