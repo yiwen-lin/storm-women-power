@@ -345,15 +345,15 @@ h2 {
     margin: 14px 20px;
 }
 .footer .footer-logo img.img-1 {
-    width: 100%;
+    /* width: 100%; */
     height: 56px;
 }
 .footer .footer-logo img.img-2 {
-    width: 100%;
+    /* width: 100%; */
     height: 34px;
 }
 .footer .footer-logo img.img-3 {
-    width: 100%;
+    /* width: 100%; */
     height: 30px;
 }
 @media only screen and (max-width: 768px){ 
